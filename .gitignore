@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets / local config — never commit
+*.env
+.env
+.env.*
+claude_desktop_config.json
+*secret*
+*credentials*
+
+# OS
+.DS_Store
